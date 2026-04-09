@@ -721,7 +721,7 @@ footer{background:#060609;padding:64px 48px 36px}
   .proof-inner,.stats-strip{padding:0 32px}
   .footer-top{grid-template-columns:1fr 1fr}
 }
-@media(max-width:768px){
+/* @media(max-width:768px){
   nav .nav-links{display:none}
   .hero-left{padding:96px 24px 60px}
   .hero-h1{font-size:2.8rem}
@@ -736,6 +736,44 @@ footer{background:#060609;padding:64px 48px 36px}
   .footer-top{grid-template-columns:1fr}
   .logos-row{gap:24px}
   .nav-inner{padding:0 24px}
+} */
+ @media(max-width:768px){
+  #hero{
+    display:block;
+    padding-top:80px;
+  }
+
+  .hero-left{
+    padding:80px 20px 40px;
+    text-align:left;
+  }
+
+  .hero-h1{
+    font-size:2.2rem;
+    line-height:1.2;
+  }
+
+  .hero-sub{
+    font-size:0.95rem;
+    max-width:100%;
+  }
+
+  .hero-cta-row{
+    flex-direction:column;
+    align-items:stretch;
+  }
+
+  .btn-hero,
+  .btn-hero-outline{
+    width:100%;
+    justify-content:center;
+  }
+
+  .hero-proof{
+    flex-direction:column;
+    align-items:flex-start;
+    gap:10px;
+  }
 }
 </style>
 </head>
@@ -1282,8 +1320,8 @@ footer{background:#060609;padding:64px 48px 36px}
     </div>
 
     <div class="stats-strip reveal">
-      <div class="stat-c"><div class="stat-n">20+<span>+</span></div><div class="stat-l">Businesses using Kaidra AI</div></div>
-      <div class="stat-c"><div class="stat-n">10k<span>M</span></div><div class="stat-l">Conversations automated</div></div>
+      <div class="stat-c"><div class="stat-n">20<span>+</span></div><div class="stat-l">Businesses using Kaidra AI</div></div>
+      <div class="stat-c"><div class="stat-n">10<span>k</span></div><div class="stat-l">Conversations automated</div></div>
       <div class="stat-c"><div class="stat-n">94<span>%</span></div><div class="stat-l">AI conversation resolution</div></div>
       <div class="stat-c"><div class="stat-n">4.9<span>★</span></div><div class="stat-l">Average customer rating</div></div>
     </div>
